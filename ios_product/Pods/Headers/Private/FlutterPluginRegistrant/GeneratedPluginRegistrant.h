@@ -1,0 +1,1 @@
+../../../../../flutter_widget/.ios/Flutter/FlutterPluginRegistrant/Classes/GeneratedPluginRegistrant.h
