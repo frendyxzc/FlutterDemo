@@ -1,13 +1,11 @@
-import 'dart:ui' as ui;
+import 'dart:ui';
 import 'package:flutter/material.dart';
 
-void main() => runApp(_widgetForRoute(ui.window.defaultRouteName));
+void main() => runApp(_widgetForRoute(window.defaultRouteName));
 
-// 根据iOS端传来的route跳转不同界面
 Widget _widgetForRoute(String route) {
   switch (route) {
-    case 'myApp':
-      return new MyApp();
+    case 'route1':
     default:
       return Center(
         child: Text('Unknown route: $route', textDirection: TextDirection.ltr),
